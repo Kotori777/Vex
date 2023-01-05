@@ -23,7 +23,3 @@ void flywheel_shoot( void ){
   FlyWheel.spin(vex::forward, 100, vex::percent);
 
 }
-
-
-//aaa
-//aaa
