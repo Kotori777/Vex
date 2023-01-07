@@ -15,6 +15,6 @@ void driver_control( void ){
     RightWheel.spin(vex::forward, (Controller1.Axis1.value() - Controller1.Axis3.value()), vex::percent);
 
     flywheel_shoot();
-    
+    loader_work();  
   } 
 }
