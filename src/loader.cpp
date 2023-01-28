@@ -13,4 +13,5 @@ void loader_work ( void ){
     }
 
     Loader.spin(vex::forward, 100, vex::percent); 
+    Loader2.spin(vex::forward, 100, vex::percent);
 }

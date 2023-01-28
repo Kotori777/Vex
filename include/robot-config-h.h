@@ -7,10 +7,11 @@
 extern  vex::brain Brain;
 
 //global variables for motors for use in other source files
-extern  vex::motor LeftWheel;
-extern  vex::motor RightWheel;
-extern  vex::motor FlyWheel;
-extern  vex::motor Loader; 
+extern vex::motor LeftWheel;
+extern vex::motor RightWheel;
+extern vex::motor FlyWheel;
+extern vex::motor Loader; 
+extern vex::motor Loader2;
 
 
 
