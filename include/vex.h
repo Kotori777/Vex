@@ -6,6 +6,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <iostream> // for debugging stuff
 
 //vex stuff
 #include "v5.h"
@@ -13,16 +14,6 @@
 
 //robot stuff
 #include "robot-config-h.h"
-#include "driver-control-h.h"
-#include "flywheel-h.h"
-#include "loader-h.h"
-
-
-#define waitUntil(condition) \
-  do { \
-    wait(5, msec); \
-  } while (!(condition))
-
-#define repeat(iterations) for (int iterator = 0; iterator < iterations; iterator++)
+#include "chasis-def-h.h"
 
 #endif

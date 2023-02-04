@@ -1,5 +1,3 @@
-//using this file to declare global variables, classes and functions
-
 #ifndef _ROBOT_CONFIG_H
 #define _ROBOT_CONFIG_H
 
@@ -10,8 +8,9 @@ extern  vex::brain Brain;
 extern vex::motor LeftWheel;
 extern vex::motor RightWheel;
 extern vex::motor FlyWheel;
-extern vex::motor Loader; 
+extern vex::motor Loader1; 
 extern vex::motor Loader2;
+extern vex::motor Loader3;
 
 
 

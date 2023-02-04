@@ -7,11 +7,13 @@ int main() {
   vexcodeInit();
 
   // check driver controll.cpp
-  Competition.drivercontrol(driver_control);
+  Competition.drivercontrol();
 
   // for when I get around to creating auto code
   // Competition.autonomous( );
   
+
+  return 0;
 }
 
 
